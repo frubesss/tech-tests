@@ -1,0 +1,38 @@
+[
+  {
+    "uuid": "1232323",
+    "name": "Student Life Card",
+    "apr": "18.9",
+    "balanceTransferDuration": "0",
+    "purchaseOfferDuration": "6",
+    "credit": "1200",
+    "requirements": {
+      "income": null,
+      "occupation": "student"
+    }
+  },
+  {
+    "uuid": "55667",
+    "name": "Anywhere Card",
+    "apr": "33.9",
+    "balanceTransferDuration": "0",
+    "purchaseOfferDuration": "0",
+    "credit": "300",
+    "requirements": {
+      "income": null,
+      "occupation": null
+    }
+  },
+  {
+    "uuid": "979767",
+    "name": "Liquid Card",
+    "apr": "33.9",
+    "balanceTransferDuration": "12",
+    "purchaseOfferDuration": "6",
+    "credit": "3000",
+    "requirements": {
+      "income": "16000",
+      "occupation": null
+    }
+  }
+]

@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Component Snapshot Test 1`] = `
+<div>
+  <div>
+    <div
+      className="card-wrapper"
+    >
+      <div
+        className="card"
+      >
+        <p
+          className="title"
+        >
+          Student Life Card
+        </p>
+        <p
+          className="apr"
+        >
+          Apr: 
+          <strong>
+            18.9
+            %
+          </strong>
+        </p>
+        <p
+          className="b-t"
+        >
+          Balance Transfer Offer Duration: 
+          <strong>
+            0
+             Months
+          </strong>
+        </p>
+        <p
+          className="purchase"
+        >
+          Purchase Offer Duration: 
+          <strong>
+            6
+             Months
+          </strong>
+        </p>
+        <p
+          className="credit"
+        >
+          Credit Available: 
+          <strong>
+            £
+            1200
+          </strong>
+        </p>
+      </div>
+    </div>
+    <div
+      className="card-wrapper"
+    >
+      <div
+        className="card"
+      >
+        <p
+          className="title"
+        >
+          Anywhere Card
+        </p>
+        <p
+          className="apr"
+        >
+          Apr: 
+          <strong>
+            33.9
+            %
+          </strong>
+        </p>
+        <p
+          className="b-t"
+        >
+          Balance Transfer Offer Duration: 
+          <strong>
+            0
+             Months
+          </strong>
+        </p>
+        <p
+          className="purchase"
+        >
+          Purchase Offer Duration: 
+          <strong>
+            0
+             Months
+          </strong>
+        </p>
+        <p
+          className="credit"
+        >
+          Credit Available: 
+          <strong>
+            £
+            300
+          </strong>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

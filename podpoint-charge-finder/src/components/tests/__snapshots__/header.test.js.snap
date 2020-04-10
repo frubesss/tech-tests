@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component Snapshot Test 1`] = `
+<div
+  className="header-nav"
+>
+  <a>
+    FAVOURITES
+  </a>
+</div>
+`;

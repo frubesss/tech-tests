@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Component Snapshot Test 1`] = `
+<div
+  className="footer-nav"
+>
+  <a
+    className="footer-nav-item"
+    onClick={[Function]}
+  >
+    <i
+      className="fa fa-map-marker"
+    />
+    Map
+  </a>
+  <a
+    className="footer-nav-item active"
+    onClick={[Function]}
+  >
+    <i
+      className="fa fa-star"
+    />
+    Favourites
+  </a>
+  <a
+    className="footer-nav-item"
+    onClick={[Function]}
+  >
+    <i
+      className="fa fa-user-circle"
+    />
+    Account
+  </a>
+</div>
+`;

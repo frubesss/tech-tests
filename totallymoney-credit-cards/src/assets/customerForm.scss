@@ -1,0 +1,35 @@
+.container {
+  max-width: 400px;
+  width: 100%;
+
+  .customer-contact-form {
+    background: #F9F9F9;
+    padding: 25px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+    input {
+      width: 100%;
+      border: 1px solid #CCC;
+      background: #FFF;
+      margin: 0 0 10px;
+      padding: 10px;
+    }
+
+    button {
+      cursor: pointer;
+      width: 100%;
+      border: none;
+      background: #4CAF50;
+      color: #FFF;
+      margin-top: 10px;
+      padding: 10px;
+      font-size: 15px;
+    }
+
+  }
+
+}
+
+
+
+

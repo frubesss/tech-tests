@@ -1,0 +1,55 @@
+##Appendix
+
+Client Portal - Internal Portal built from the ground up for Yodel Clients to track and manage their parcels through the Yodel Network.
+
+1. Please give an example of a software component you have designed and written from concept to deployment, outlining the steps you took. (1000 character limit)
+
+A business requirement came through that outlined when a new user is created in the Client Portal an email needs to be generated and sent to the created user.
+
+This email must contain the following details:
+
+- Greeting Message, Username, Password
+
+When I picked up this user story, I knew a number of things that I needed to consider:
+
+- The project as a whole had no concept of an email sender service so this would have to be developed from scratch and needed to be created as generic as possible so it can be consumed in the future for other email services for the Client Portal.
+- When a user is created in the Client Portal, it already puts a message on a Kafka Topic with the details I outlined earlier. So this story only focused on consuming this Topic and sending the email.
+
+Steps:
+- Created the new Email Sender Service using Java/Spring.
+- Added Spring Kafka and JavaMail as a Gradle Dependency.
+- Setup the configuration for both dependencies.
+- Wrote acceptance tests using cucumber, JUnit and a mock SMTP server/mailbox with GreenMail.
+- Setup a Listener class to listen to the Kafka topic and parse the email message extracting the details.
+- Setup an Email Sender class to take the parsed message and send the email via JavaMail.
+- Add logging and error catches.
+- Refactored accordingly.
+
+2. Using the example that you provided above, tell us about a significant decision you made to solve a technical challenge.
+Give details of technologies that you chose and why you chose them. (1000 character limit)
+
+I am a big fan of not having to write boilerplate code to get something up and running. I always try to use the dependencies imported to their maximum capabilities and the APIs that come with them.
+Instead of using them here and there with custom Java code around them to bring everything together. It makes my code easier to read, easier to test and easier to maintain.
+
+This is why I made the decision to use:
+
+- JavaMail: Using the JavaMail API I didn't need to worry about the low-level implementation. I simply needed to set up my config (mail protocol, SMTP server address/port) and create my mail message and send it.
+- Spring Kafka: I can easily listen to a topic by adding the @KafkaListen annotation to my class and defining the topic to listen to, parse the message and send it to my JavaMail class.
+
+Another significant decision I chose was using a mock SMTP server and mailbox for my unit/integration and acceptance tests. Obviously, I didn't want email messages going through the live SMTP
+gateway and hitting a user's actual email box in my development or test environments. So I decided to use GreenMail which allowed me to set up a specific test config and spin up a mock SMTP server, every time the tests are run.
+
+3. Using the example that you provided above, tell us about how you ensured your software was fit for purpose and of high quality.
+What did you learn and what would you do differently next time to do a better job? (1000 character limit) 
+
+At Yodel we have a number of tools and techniques in place to ensure that the code we have developed is of high quality and is fit for purpose.
+As I am fairly new to the professional development world and these tools and techniques have been instilled in me from day one. I carry them out whenever I write a piece of code.
+
+These tools and techniques I use are the following and all of these were used when creating the feature above:
+
+- Unit/Integration/Acceptance Tests - Feature fully unit/integration/acceptance tested with a principle of 98% coverage when possible.
+- Pair Programming - Due to this being a brand-new service from scratch I did pair with a senior developer at points to help with some issues and set me on the right path.
+- Linting - SonarQube integrated into my IDE to pick up on any linting and code quality issues with my new service.
+- Kick-Off Sessions - Before I did any actual coding on the above feature I had a kick-off session with the BA and QA to walk through the story and agree we are all happy with what is being delivered.
+- CI/Pipeline - All code is worked off master and the email service was integrated into the Jenkins pipeline that runs the standard CI steps - Clean Build, Linting, Unit Test, Acceptance Tests, Deployed to Dev, etc.
+- QA Testing - QA will hand test the feature and raise any issues with me in the respected environments.

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabs Component Snapshot Test 1`] = `
+<div>
+  <div
+    className="btn-group"
+  >
+    <button
+      className="btn pill"
+      onClick={[Function]}
+    >
+      NEARBY
+    </button>
+    <button
+      className="btn pill active"
+      onClick={[Function]}
+    >
+      FAVOURITES
+    </button>
+  </div>
+</div>
+`;

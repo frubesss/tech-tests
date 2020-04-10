@@ -1,0 +1,2 @@
+export const studentCreditCardCheck = (card, customer) => card.requirements.occupation === customer.employment;
+export const liquidCreditCardCheck = (card, customer) => customer.annualIncome > card.requirements.income;

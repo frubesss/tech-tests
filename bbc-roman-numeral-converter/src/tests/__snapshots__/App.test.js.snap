@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component Snapshot Test 1`] = `
+<div
+  className="App"
+>
+  <input
+    className="numeric-input-field"
+    max={3999}
+    min={0}
+    onChange={[Function]}
+    type="number"
+  />
+  <div>
+    <h1>
+      Please enter a number between 1 and 3999
+    </h1>
+  </div>
+</div>
+`;

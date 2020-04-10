@@ -1,0 +1,8 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+input.numeric-input-field {
+  width: 150px;
+}

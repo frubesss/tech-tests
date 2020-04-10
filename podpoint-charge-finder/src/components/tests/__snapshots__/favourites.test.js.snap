@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Favourites Component Snapshot Test 1`] = `
+<div>
+  <ul
+    className="item-list"
+  >
+    <li
+      className="item"
+    >
+      <i
+        className="fa fa-map-marker map-marker"
+      />
+      <ul
+        className="item-address"
+      >
+        <li>
+          <a
+            className="item-heading"
+          >
+            Albert Dock Road
+          </a>
+        </li>
+        <li>
+          <a
+            className="item-subheading"
+          >
+            22 Boaty Road - L1 9EH
+          </a>
+        </li>
+      </ul>
+      <a
+        className="item-distance"
+      >
+        0.13
+        km
+      </a>
+    </li>
+    <li
+      className="item"
+    >
+      <i
+        className="fa fa-map-marker map-marker"
+      />
+      <ul
+        className="item-address"
+      >
+        <li>
+          <a
+            className="item-heading"
+          >
+            Super Duper Pod Point
+          </a>
+        </li>
+        <li>
+          <a
+            className="item-subheading"
+          >
+            Testing Avenue - L12 2ER
+          </a>
+        </li>
+      </ul>
+      <a
+        className="item-distance"
+      >
+        0.12
+        km
+      </a>
+    </li>
+  </ul>
+</div>
+`;

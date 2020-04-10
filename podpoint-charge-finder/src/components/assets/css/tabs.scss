@@ -1,0 +1,48 @@
+$pod_point_green: #26c000;
+
+.btn-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+
+    .btn {
+        cursor:pointer;
+        text-decoration:none;
+        color:#333333;
+        font-size:12px;
+        padding:0 15px;
+        line-height:32px;
+        width: 100%;
+        display:inline-block;
+        text-align:center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: #fff;
+        border: 2px solid $pod_point_green;
+
+        &.active {
+            background-color: $pod_point_green;
+            color: #fff;
+        }
+
+        &.pill{
+            border-radius: 16px;
+
+            &:first-child{
+                border-top-right-radius: 0;
+                border-bottom-right-radius: 0;
+                margin-left: 20px;
+            }
+
+            &:last-child{
+                border-top-left-radius: 0;
+                border-bottom-left-radius: 0;
+                margin-right: 20px;
+            }
+
+        }
+
+    }
+
+}

@@ -1,0 +1,1862 @@
+[
+  {
+    "ID": 55085,
+    "UUID": "B31C5C05-593F-41FC-A095-EE0824725D1C",
+    "DataProviderID": 1,
+    "DataProvider": {
+      "WebsiteURL": "http://openchargemap.org",
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 1,
+        "Title": "Manual Data Entry"
+      },
+      "IsRestrictedEdit": false,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+      "ID": 1,
+      "Title": "Open Charge Map Contributors"
+    },
+    "OperatorID": 3,
+    "OperatorInfo": {
+      "WebsiteURL": "http://www.pod-point.com/",
+      "PhoneSecondaryContact": "020 7247 4114",
+      "IsPrivateIndividual": false,
+      "ContactEmail": "enquiries@pod-point.com",
+      "FaultReportEmail": "enquiries@pod-point.com",
+      "ID": 3,
+      "Title": "POD Point (UK)"
+    },
+    "OperatorsReference": "PG-80047,PG-90369,PG-90585,PG-90624,PG-99999,PSL-52780,PSL-62322,PSL-69973,PSL-69974,PSL-69991",
+    "UsageTypeID": 6,
+    "UsageType": {
+      "IsPayAtLocation": false,
+      "IsMembershipRequired": false,
+      "IsAccessKeyRequired": false,
+      "ID": 6,
+      "Title": "Private - For Staff, Visitors or Customers"
+    },
+    "UsageCost": "Free",
+    "AddressInfo": {
+      "ID": 55431,
+      "Title": "Pod Point Office",
+      "AddressLine1": "Discovery House",
+      "AddressLine2": "Old Street",
+      "Town": "London",
+      "Postcode": "EC1Y 8QE",
+      "CountryID": 1,
+      "Country": {
+        "ISOCode": "GB",
+        "ContinentCode": "EU",
+        "ID": 1,
+        "Title": "United Kingdom"
+      },
+      "Latitude": 51.524491,
+      "Longitude": -0.092208,
+      "Distance": 0.070231423642275054,
+      "DistanceUnit": 2
+    },
+    "NumberOfPoints": 18,
+    "GeneralComments": "Pod-Point T7-S charge points, and S7-UP. Web/app login and pre-payment account required",
+    "StatusTypeID": 50,
+    "StatusType": {
+      "IsOperational": true,
+      "IsUserSelectable": true,
+      "ID": 50,
+      "Title": "Operational"
+    },
+    "DateLastStatusUpdate": "2017-11-06T06:23:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2015-10-14T12:00:00Z",
+    "SubmissionStatusTypeID": 200,
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 200,
+      "Title": "Submission Published"
+    },
+    "UserComments": [
+      {
+        "ID": 8014,
+        "ChargePointID": 55085,
+        "CommentTypeID": 110,
+        "CommentType": {
+          "ID": 110,
+          "Title": "Suggested Changed (Actioned By Editor)"
+        },
+        "UserName": "Simon Hewison",
+        "Comment": "Checked with Pod-Point. These chargers are for staff and visitors on pod-point business.",
+        "RelatedURL": "https://opencharge.pod-point.com/pod/3089",
+        "DateCreated": "2015-11-17T16:44:44.977Z",
+        "User": {
+          "ID": 4575,
+          "Username": "Simon Hewison",
+          "ReputationPoints": 36346,
+          "ProfileImageURL": "https://www.gravatar.com/avatar/b6797fc022c04bb79e21d4ff9ba07154?s=80&d=mm"
+        },
+        "CheckinStatusTypeID": 0,
+        "CheckinStatusType": {
+          "IsAutomatedCheckin": false,
+          "ID": 0,
+          "Title": "Did Not Visit Location"
+        }
+      },
+      {
+        "ID": 8013,
+        "ChargePointID": 55085,
+        "CommentTypeID": 100,
+        "CommentType": {
+          "ID": 100,
+          "Title": "Suggested Change (Note To Editors)"
+        },
+        "UserName": "Rick Fish",
+        "Comment": "Barriers shut on a weekend - could not access.  Can you state the operating hours of this charging spot. Thanks ",
+        "DateCreated": "2015-11-17T14:22:23.003Z",
+        "User": {
+          "ID": 6590,
+          "Username": "Rick Fish",
+          "ReputationPoints": 4,
+          "ProfileImageURL": "https://www.gravatar.com/avatar/851195b40466607d496666c905d92c47?s=80&d=mm"
+        },
+        "CheckinStatusTypeID": 120,
+        "CheckinStatusType": {
+          "IsPositive": false,
+          "IsAutomatedCheckin": false,
+          "ID": 120,
+          "Title": "Charging Spot Not Accessible (Access locked or site closed)"
+        }
+      }
+    ],
+    "Connections": [
+      {
+        "ID": 69638,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Mennekes (Type 2)"
+        },
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 32,
+        "Voltage": 400,
+        "PowerKW": 43.0,
+        "CurrentTypeID": 20,
+        "CurrentType": {
+          "Description": "Alternating Current - Three Phase",
+          "ID": 20,
+          "Title": "AC (Three-Phase)"
+        },
+        "Quantity": 17
+      },
+      {
+        "ID": 126231,
+        "ConnectionTypeID": 2,
+        "ConnectionType": {
+          "ID": 2,
+          "Title": "CHAdeMO"
+        },
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 3,
+        "Level": {
+          "Comments": "40KW and Higher",
+          "IsFastChargeCapable": true,
+          "ID": 3,
+          "Title": "Level 3:  High (Over 40kW)"
+        },
+        "PowerKW": 50.0,
+        "CurrentTypeID": 30,
+        "CurrentType": {
+          "Description": "Direct Current",
+          "ID": 30,
+          "Title": "DC"
+        },
+        "Quantity": 1
+      },
+      {
+        "ID": 126232,
+        "ConnectionTypeID": 33,
+        "ConnectionType": {
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 33,
+          "Title": "CCS (Type 2 Version of Combined Coupler)"
+        },
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 3,
+        "Level": {
+          "Comments": "40KW and Higher",
+          "IsFastChargeCapable": true,
+          "ID": 3,
+          "Title": "Level 3:  High (Over 40kW)"
+        },
+        "PowerKW": 50.0,
+        "CurrentTypeID": 30,
+        "CurrentType": {
+          "Description": "Direct Current",
+          "ID": 30,
+          "Title": "DC"
+        },
+        "Quantity": 1
+      },
+      {
+        "ID": 126402,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Mennekes (Type 2)"
+        },
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 32,
+        "Voltage": 400,
+        "PowerKW": 43.0,
+        "CurrentTypeID": 20,
+        "CurrentType": {
+          "Description": "Alternating Current - Three Phase",
+          "ID": 20,
+          "Title": "AC (Three-Phase)"
+        },
+        "Quantity": 17
+      },
+      {
+        "ID": 126403,
+        "ConnectionTypeID": 1036,
+        "ConnectionType": {
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 1036,
+          "Title": "Mennekes (Type 2, Tethered Connector) "
+        },
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 3,
+        "Level": {
+          "Comments": "40KW and Higher",
+          "IsFastChargeCapable": true,
+          "ID": 3,
+          "Title": "Level 3:  High (Over 40kW)"
+        },
+        "Amps": 63,
+        "Voltage": 400,
+        "PowerKW": 43.0,
+        "CurrentTypeID": 20,
+        "CurrentType": {
+          "Description": "Alternating Current - Three Phase",
+          "ID": 20,
+          "Title": "AC (Three-Phase)"
+        },
+        "Quantity": 1
+      },
+      {
+        "ID": 131565,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Mennekes (Type 2)"
+        },
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 32,
+        "Voltage": 400,
+        "PowerKW": 43.0,
+        "CurrentTypeID": 20,
+        "CurrentType": {
+          "Description": "Alternating Current - Three Phase",
+          "ID": 20,
+          "Title": "AC (Three-Phase)"
+        },
+        "Quantity": 17
+      }
+    ],
+    "IsRecentlyVerified": false
+  },
+  {
+    "ID": 52783,
+    "UUID": "1DF3BDEB-57AD-42EE-9628-A126CB249AA9",
+    "DataProviderID": 1,
+    "DataProvider": {
+      "WebsiteURL": "http://openchargemap.org",
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 1,
+        "Title": "Manual Data Entry"
+      },
+      "IsRestrictedEdit": false,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+      "ID": 1,
+      "Title": "Open Charge Map Contributors"
+    },
+    "OperatorID": 25,
+    "OperatorInfo": {
+      "WebsiteURL": "http://www.sourcelondon.net/",
+      "BookingURL": "https://www.sourcelondon.net/membership",
+      "ContactEmail": "membership@sourcelondon.net",
+      "FaultReportEmail": "membership@sourcelondon.net",
+      "ID": 25,
+      "Title": "Source London"
+    },
+    "OperatorsReference": "islington-ncpfinsburysquare",
+    "UsageTypeID": 4,
+    "UsageType": {
+      "IsPayAtLocation": false,
+      "IsMembershipRequired": true,
+      "IsAccessKeyRequired": true,
+      "ID": 4,
+      "Title": "Public - Membership Required"
+    },
+    "UsageCost": "Free. Parking fees apply.",
+    "AddressInfo": {
+      "ID": 53129,
+      "Title": "NCP Finsbury Square",
+      "AddressLine1": "Finsbury Square",
+      "Town": "London",
+      "Postcode": "EC2A 1AD",
+      "CountryID": 1,
+      "Country": {
+        "ISOCode": "GB",
+        "ContinentCode": "EU",
+        "ID": 1,
+        "Title": "United Kingdom"
+      },
+      "Latitude": 51.5214194355953,
+      "Longitude": -0.0867978968200389,
+      "ContactTelephone1": "0845 850 0653",
+      "AccessComments": "Drive into multi storey and follow signs for exit. Points are near exit. Opening Hours: 24/7",
+      "Distance": 0.25767575943404658,
+      "DistanceUnit": 2
+    },
+    "NumberOfPoints": 4,
+    "GeneralComments": "Chargemaster posts. Polar Network cards accepted as well as Source London.",
+    "StatusTypeID": 0,
+    "StatusType": {
+      "IsUserSelectable": true,
+      "ID": 0,
+      "Title": "Unknown"
+    },
+    "DateLastStatusUpdate": "2017-01-25T06:24:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2015-09-11T08:45:00Z",
+    "SubmissionStatusTypeID": 200,
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 200,
+      "Title": "Submission Published"
+    },
+    "UserComments": [
+      {
+        "ID": 7937,
+        "ChargePointID": 52783,
+        "CommentTypeID": 10,
+        "CommentType": {
+          "ID": 10,
+          "Title": "General Comment"
+        },
+        "UserName": "Simon Hewison",
+        "Comment": "Charging bays taped off. Car park is being refurbished. ",
+        "Rating": 2,
+        "DateCreated": "2015-11-06T12:44:01.347Z",
+        "User": {
+          "ID": 4575,
+          "Username": "Simon Hewison",
+          "ReputationPoints": 36332,
+          "ProfileImageURL": "https://www.gravatar.com/avatar/b6797fc022c04bb79e21d4ff9ba07154?s=80&d=mm"
+        },
+        "CheckinStatusTypeID": 140,
+        "CheckinStatusType": {
+          "IsPositive": true,
+          "IsAutomatedCheckin": false,
+          "ID": 140,
+          "Title": "Equipment & Location Confirmed Correct"
+        }
+      }
+    ],
+    "Connections": [
+      {
+        "ID": 65668,
+        "ConnectionTypeID": 3,
+        "ConnectionType": {
+          "FormalName": "BS1363 / Type G",
+          "ID": 3,
+          "Title": "BS1363 3 Pin 13 Amp"
+        },
+        "StatusTypeID": 30,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 30,
+          "Title": "Temporarily Unavailable"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 13,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "CurrentTypeID": 10,
+        "CurrentType": {
+          "Description": "Alternating Current - Single Phase",
+          "ID": 10,
+          "Title": "AC (Single-Phase)"
+        },
+        "Quantity": 4
+      }
+    ],
+    "IsRecentlyVerified": false
+  },
+  {
+    "ID": 94843,
+    "UUID": "3C73960D-4083-4FF9-9A4D-AA16E59F05DD",
+    "DataProviderID": 1,
+    "DataProvider": {
+      "WebsiteURL": "http://openchargemap.org",
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 1,
+        "Title": "Manual Data Entry"
+      },
+      "IsRestrictedEdit": false,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+      "ID": 1,
+      "Title": "Open Charge Map Contributors"
+    },
+    "OperatorID": 2244,
+    "OperatorInfo": {
+      "WebsiteURL": "https://www.ubitricity.com/",
+      "PhonePrimaryContact": "+49 (0)30 398 371 690",
+      "IsPrivateIndividual": false,
+      "ContactEmail": "contact@ubitricity.com",
+      "IsRestrictedEdit": false,
+      "ID": 2244,
+      "Title": "ubitricity"
+    },
+    "UsageTypeID": 4,
+    "UsageType": {
+      "IsPayAtLocation": false,
+      "IsMembershipRequired": true,
+      "IsAccessKeyRequired": true,
+      "ID": 4,
+      "Title": "Public - Membership Required"
+    },
+    "AddressInfo": {
+      "ID": 95189,
+      "Title": "Ubitricity Clifton Street",
+      "AddressLine1": "Clifton Street",
+      "AddressLine2": "London Borough of Hackney",
+      "Town": "London",
+      "Postcode": "EC2V 7HH",
+      "CountryID": 1,
+      "Country": {
+        "ISOCode": "GB",
+        "ContinentCode": "EU",
+        "ID": 1,
+        "Title": "United Kingdom"
+      },
+      "Latitude": 51.5236787278134,
+      "Longitude": -0.0829940367706339,
+      "AccessComments": "Several lamp posts in Clifton Street have been fitted with Ubitricity charge points. Ubitricity dongle required.\r\nOpposite Squiz, next to Zetland House",
+      "Distance": 0.37688287923746772,
+      "DistanceUnit": 2
+    },
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "StatusType": {
+      "IsOperational": true,
+      "IsUserSelectable": true,
+      "ID": 50,
+      "Title": "Operational"
+    },
+    "DateLastStatusUpdate": "2017-10-28T12:08:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2017-10-28T11:58:00Z",
+    "SubmissionStatusTypeID": 200,
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 200,
+      "Title": "Submission Published"
+    },
+    "Connections": [
+      {
+        "ID": 134072,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Mennekes (Type 2)"
+        },
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 16,
+        "Voltage": 230,
+        "PowerKW": 3.6,
+        "CurrentTypeID": 10,
+        "CurrentType": {
+          "Description": "Alternating Current - Single Phase",
+          "ID": 10,
+          "Title": "AC (Single-Phase)"
+        },
+        "Quantity": 2
+      }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2017-10-28T11:58:00Z"
+  },
+  {
+    "ID": 56874,
+    "UUID": "1C42CB25-19AA-4ABF-AE2C-AE96BF6FCF79",
+    "DataProviderID": 1,
+    "DataProvider": {
+      "WebsiteURL": "http://openchargemap.org",
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 1,
+        "Title": "Manual Data Entry"
+      },
+      "IsRestrictedEdit": false,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+      "ID": 1,
+      "Title": "Open Charge Map Contributors"
+    },
+    "OperatorID": 32,
+    "OperatorInfo": {
+      "WebsiteURL": "http://www.polarnetwork.com/",
+      "Comments": "Owned by Chargemaster in the UK",
+      "PhonePrimaryContact": "01582 400331",
+      "IsPrivateIndividual": false,
+      "ContactEmail": "polarenquiries@chargemasterplc.com",
+      "FaultReportEmail": "polarenquiries@chargemasterplc.com",
+      "IsRestrictedEdit": false,
+      "ID": 32,
+      "Title": "POLAR (UK)"
+    },
+    "OperatorsReference": "4082,4083,4084,4085,4086",
+    "UsageTypeID": 4,
+    "UsageType": {
+      "IsPayAtLocation": false,
+      "IsMembershipRequired": true,
+      "IsAccessKeyRequired": true,
+      "ID": 4,
+      "Title": "Public - Membership Required"
+    },
+    "UsageCost": "Â£1.20; other tariffs available. Parking fees apply.",
+    "AddressInfo": {
+      "ID": 57220,
+      "Title": "London Wall Car Park",
+      "AddressLine1": "London Wall",
+      "AddressLine2": "City of London",
+      "Town": "London",
+      "Postcode": "EC2V 5DY",
+      "CountryID": 1,
+      "Country": {
+        "ISOCode": "GB",
+        "ContinentCode": "EU",
+        "ID": 1,
+        "Title": "United Kingdom"
+      },
+      "Latitude": 51.517667,
+      "Longitude": -0.095277,
+      "AccessComments": "In areas 42,43 of underground car park. Pay on foot for parking.",
+      "Distance": 0.4314513651035447,
+      "DistanceUnit": 2
+    },
+    "NumberOfPoints": 10,
+    "StatusTypeID": 50,
+    "StatusType": {
+      "IsOperational": true,
+      "IsUserSelectable": true,
+      "ID": 50,
+      "Title": "Operational"
+    },
+    "DateLastStatusUpdate": "2017-05-20T07:49:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2015-11-14T16:10:00Z",
+    "SubmissionStatusTypeID": 200,
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 200,
+      "Title": "Submission Published"
+    },
+    "Connections": [
+      {
+        "ID": 71785,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Mennekes (Type 2)"
+        },
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 32,
+        "Voltage": 230,
+        "PowerKW": 7.0,
+        "CurrentTypeID": 10,
+        "CurrentType": {
+          "Description": "Alternating Current - Single Phase",
+          "ID": 10,
+          "Title": "AC (Single-Phase)"
+        },
+        "Quantity": 5
+      },
+      {
+        "ID": 124905,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Mennekes (Type 2)"
+        },
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 16,
+        "Voltage": 230,
+        "PowerKW": 4.0,
+        "CurrentTypeID": 10,
+        "CurrentType": {
+          "Description": "Alternating Current - Single Phase",
+          "ID": 10,
+          "Title": "AC (Single-Phase)"
+        },
+        "Quantity": 5
+      }
+    ],
+    "MediaItems": [
+      {
+        "ID": 3510,
+        "ChargePointID": 56874,
+        "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM56874/OCM-56874.orig.2015111915122907.jpg",
+        "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM56874/OCM-56874.thmb.2015111915122907.jpg",
+        "Comment": "two faulty charge points, only two of the five charge points are currently working.",
+        "IsEnabled": true,
+        "IsVideo": false,
+        "IsFeaturedItem": false,
+        "IsExternalResource": false,
+        "User": {
+          "ID": 4575,
+          "Username": "Simon Hewison",
+          "ReputationPoints": 36332,
+          "ProfileImageURL": "https://www.gravatar.com/avatar/b6797fc022c04bb79e21d4ff9ba07154?s=80&d=mm"
+        },
+        "DateCreated": "2015-11-19T15:13:00Z"
+      }
+    ],
+    "IsRecentlyVerified": false
+  },
+  {
+    "ID": 53055,
+    "UUID": "DFB2C07F-397F-4087-A584-E03151EA8051",
+    "DataProviderID": 1,
+    "DataProvider": {
+      "WebsiteURL": "http://openchargemap.org",
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 1,
+        "Title": "Manual Data Entry"
+      },
+      "IsRestrictedEdit": false,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+      "ID": 1,
+      "Title": "Open Charge Map Contributors"
+    },
+    "OperatorID": 25,
+    "OperatorInfo": {
+      "WebsiteURL": "http://www.sourcelondon.net/",
+      "BookingURL": "https://www.sourcelondon.net/membership",
+      "ContactEmail": "membership@sourcelondon.net",
+      "FaultReportEmail": "membership@sourcelondon.net",
+      "ID": 25,
+      "Title": "Source London"
+    },
+    "OperatorsReference": "CM-294",
+    "UsageTypeID": 4,
+    "UsageType": {
+      "IsPayAtLocation": false,
+      "IsMembershipRequired": true,
+      "IsAccessKeyRequired": true,
+      "ID": 4,
+      "Title": "Public - Membership Required"
+    },
+    "UsageCost": "Free. Parking fees apply.",
+    "AddressInfo": {
+      "ID": 53401,
+      "Title": "NCP Aldersgate",
+      "AddressLine1": "158-170 Aldersgate Street",
+      "AddressLine2": "City of London",
+      "Town": "London",
+      "Postcode": "EC1A 4HY",
+      "CountryID": 1,
+      "Country": {
+        "ISOCode": "GB",
+        "ContinentCode": "EU",
+        "ID": 1,
+        "Title": "United Kingdom"
+      },
+      "Latitude": 51.5181749210381,
+      "Longitude": -0.0972906984862987,
+      "ContactTelephone1": "0845 850 0653",
+      "AccessComments": "On level 2. Max Height - 1.98m",
+      "RelatedURL": "http://www.ncp.co.uk/find-a-car-park/car-parks/london-aldersgate/",
+      "Distance": 0.43900802079210288,
+      "DistanceUnit": 2
+    },
+    "NumberOfPoints": 4,
+    "GeneralComments": "Chargemaster posts. Polar Network cards accepted as well as Source London.",
+    "StatusTypeID": 50,
+    "StatusType": {
+      "IsOperational": true,
+      "IsUserSelectable": true,
+      "ID": 50,
+      "Title": "Operational"
+    },
+    "DateLastStatusUpdate": "2017-04-13T13:35:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2015-09-17T16:49:00Z",
+    "SubmissionStatusTypeID": 200,
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 200,
+      "Title": "Submission Published"
+    },
+    "UserComments": [
+      {
+        "ID": 8117,
+        "ChargePointID": 53055,
+        "CommentTypeID": 100,
+        "CommentType": {
+          "ID": 100,
+          "Title": "Suggested Change (Note To Editors)"
+        },
+        "UserName": "rus23",
+        "Comment": "Point was installed around 18 months ago but NEVER commissioned (no comms apparently)\n\nIt's on Level 1 not 2 and there are 2 plugs not 4. (I've checked other levels of the car park)",
+        "DateCreated": "2015-11-30T14:51:49.11Z",
+        "User": {
+          "ID": 6643,
+          "Username": "rus23",
+          "ReputationPoints": 1,
+          "ProfileImageURL": "https://www.gravatar.com/avatar/41f926bf64cac83e72360fa6766bb180?s=80&d=mm"
+        },
+        "CheckinStatusTypeID": 20,
+        "CheckinStatusType": {
+          "IsPositive": false,
+          "IsAutomatedCheckin": false,
+          "ID": 20,
+          "Title": "Failed to Charge (Equipment Not Operational)"
+        }
+      }
+    ],
+    "Connections": [
+      {
+        "ID": 66134,
+        "ConnectionTypeID": 3,
+        "ConnectionType": {
+          "FormalName": "BS1363 / Type G",
+          "ID": 3,
+          "Title": "BS1363 3 Pin 13 Amp"
+        },
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 13,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "CurrentTypeID": 10,
+        "CurrentType": {
+          "Description": "Alternating Current - Single Phase",
+          "ID": 10,
+          "Title": "AC (Single-Phase)"
+        },
+        "Quantity": 2
+      }
+    ],
+    "IsRecentlyVerified": false
+  },
+  {
+    "ID": 47771,
+    "UUID": "31A6CCDC-4D1B-47E0-8A2E-0A314002F08F",
+    "DataProviderID": 1,
+    "DataProvider": {
+      "WebsiteURL": "http://openchargemap.org",
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 1,
+        "Title": "Manual Data Entry"
+      },
+      "IsRestrictedEdit": false,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+      "ID": 1,
+      "Title": "Open Charge Map Contributors"
+    },
+    "OperatorID": 25,
+    "OperatorInfo": {
+      "WebsiteURL": "http://www.sourcelondon.net/",
+      "BookingURL": "https://www.sourcelondon.net/membership",
+      "ContactEmail": "membership@sourcelondon.net",
+      "FaultReportEmail": "membership@sourcelondon.net",
+      "ID": 25,
+      "Title": "Source London"
+    },
+    "OperatorsReference": "9860000192",
+    "UsageTypeID": 4,
+    "UsageType": {
+      "IsPayAtLocation": false,
+      "IsMembershipRequired": true,
+      "IsAccessKeyRequired": true,
+      "ID": 4,
+      "Title": "Public - Membership Required"
+    },
+    "UsageCost": "Â£0.059/minute; min Â£1.18; other tariffs available",
+    "AddressInfo": {
+      "ID": 48117,
+      "Title": "Worship Street",
+      "AddressLine1": "(Opposite) 105 Worship Street",
+      "Town": "London",
+      "Postcode": "EC2A 2DG",
+      "CountryID": 1,
+      "Country": {
+        "ISOCode": "GB",
+        "ContinentCode": "EU",
+        "ID": 1,
+        "Title": "United Kingdom"
+      },
+      "Latitude": 51.5219754926505,
+      "Longitude": -0.0811421871185303,
+      "AccessComments": "Only accessible from West or North",
+      "Distance": 0.46855673748820836,
+      "DistanceUnit": 2
+    },
+    "NumberOfPoints": 1,
+    "GeneralComments": "New style tethered J1772 cable plus a Type 2 / Mennekes Socket.",
+    "StatusTypeID": 50,
+    "StatusType": {
+      "IsOperational": true,
+      "IsUserSelectable": true,
+      "ID": 50,
+      "Title": "Operational"
+    },
+    "DateLastStatusUpdate": "2017-04-27T15:09:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2015-05-23T10:15:00Z",
+    "SubmissionStatusTypeID": 200,
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 200,
+      "Title": "Submission Published"
+    },
+    "UserComments": [
+      {
+        "ID": 10217,
+        "ChargePointID": 47771,
+        "CommentTypeID": 10,
+        "CommentType": {
+          "ID": 10,
+          "Title": "General Comment"
+        },
+        "UserName": "Peter Galbavy",
+        "Comment": "Back in operation",
+        "Rating": 4,
+        "DateCreated": "2016-04-19T07:47:53.077Z",
+        "User": {
+          "ID": 4899,
+          "Username": "Peter Galbavy",
+          "ReputationPoints": 60,
+          "ProfileImageURL": "https://www.gravatar.com/avatar/cfaa82be6212da1801acc4aa4d0b9889?s=80&d=mm"
+        },
+        "CheckinStatusTypeID": 10,
+        "CheckinStatusType": {
+          "IsPositive": true,
+          "IsAutomatedCheckin": false,
+          "ID": 10,
+          "Title": "Charged Successfully"
+        }
+      },
+      {
+        "ID": 9843,
+        "ChargePointID": 47771,
+        "CommentTypeID": 50,
+        "CommentType": {
+          "ID": 50,
+          "Title": "Important Notice (For Other Users)"
+        },
+        "UserName": "Peter Galbavy",
+        "Comment": "The charge point and parking bay are currently a site for road works. Did not see any signs with dates on.",
+        "DateCreated": "2016-03-02T14:17:28.313Z",
+        "User": {
+          "ID": 4899,
+          "Username": "Peter Galbavy",
+          "ReputationPoints": 60,
+          "ProfileImageURL": "https://www.gravatar.com/avatar/cfaa82be6212da1801acc4aa4d0b9889?s=80&d=mm"
+        },
+        "CheckinStatusTypeID": 120,
+        "CheckinStatusType": {
+          "IsPositive": false,
+          "IsAutomatedCheckin": false,
+          "ID": 120,
+          "Title": "Charging Spot Not Accessible (Access locked or site closed)"
+        }
+      },
+      {
+        "ID": 6470,
+        "ChargePointID": 47771,
+        "CommentTypeID": 10,
+        "CommentType": {
+          "ID": 10,
+          "Title": "General Comment"
+        },
+        "UserName": "Peter Galbavy",
+        "Comment": "Tethered type 1 / J1772 cable now working. ",
+        "Rating": 4,
+        "DateCreated": "2015-09-11T15:19:02.433Z",
+        "User": {
+          "ID": 4899,
+          "Username": "Peter Galbavy",
+          "ReputationPoints": 60,
+          "ProfileImageURL": "https://www.gravatar.com/avatar/cfaa82be6212da1801acc4aa4d0b9889?s=80&d=mm"
+        },
+        "CheckinStatusTypeID": 10,
+        "CheckinStatusType": {
+          "IsPositive": true,
+          "IsAutomatedCheckin": false,
+          "ID": 10,
+          "Title": "Charged Successfully"
+        }
+      },
+      {
+        "ID": 6454,
+        "ChargePointID": 47771,
+        "CommentTypeID": 10,
+        "CommentType": {
+          "ID": 10,
+          "Title": "General Comment"
+        },
+        "UserName": "Peter Galbavy",
+        "Comment": "New post is now operational but I could not unlock the tethered J1772 side and have ended up using the Type 2 with my own cable.",
+        "Rating": 4,
+        "DateCreated": "2015-09-09T16:04:20.063Z",
+        "User": {
+          "ID": 4899,
+          "Username": "Peter Galbavy",
+          "ReputationPoints": 60,
+          "ProfileImageURL": "https://www.gravatar.com/avatar/cfaa82be6212da1801acc4aa4d0b9889?s=80&d=mm"
+        },
+        "CheckinStatusTypeID": 10,
+        "CheckinStatusType": {
+          "IsPositive": true,
+          "IsAutomatedCheckin": false,
+          "ID": 10,
+          "Title": "Charged Successfully"
+        }
+      },
+      {
+        "ID": 6060,
+        "ChargePointID": 47771,
+        "CommentTypeID": 50,
+        "CommentType": {
+          "ID": 50,
+          "Title": "Important Notice (For Other Users)"
+        },
+        "UserName": "Peter Galbavy",
+        "Comment": "New post in place, looks good, but no power to the unit so the display is blank.",
+        "Rating": 3,
+        "DateCreated": "2015-07-30T12:40:46.43Z",
+        "User": {
+          "ID": 4899,
+          "Username": "Peter Galbavy",
+          "ReputationPoints": 60,
+          "ProfileImageURL": "https://www.gravatar.com/avatar/cfaa82be6212da1801acc4aa4d0b9889?s=80&d=mm"
+        },
+        "CheckinStatusTypeID": 140,
+        "CheckinStatusType": {
+          "IsPositive": true,
+          "IsAutomatedCheckin": false,
+          "ID": 140,
+          "Title": "Equipment & Location Confirmed Correct"
+        }
+      },
+      {
+        "ID": 4952,
+        "ChargePointID": 47771,
+        "CommentTypeID": 50,
+        "CommentType": {
+          "ID": 50,
+          "Title": "Important Notice (For Other Users)"
+        },
+        "UserName": "Peter Galbavy",
+        "Comment": "Walking past today and there are workmen ripping up the entire footway around where the post used to be. No signage as to what is being done",
+        "DateCreated": "2015-07-16T11:43:47.057Z",
+        "User": {
+          "ID": 4899,
+          "Username": "Peter Galbavy",
+          "ReputationPoints": 60,
+          "ProfileImageURL": "https://www.gravatar.com/avatar/cfaa82be6212da1801acc4aa4d0b9889?s=80&d=mm"
+        },
+        "CheckinStatusTypeID": 160,
+        "CheckinStatusType": {
+          "IsPositive": false,
+          "IsAutomatedCheckin": false,
+          "ID": 160,
+          "Title": "Equipment/Location Has Been Decommissioned"
+        }
+      },
+      {
+        "ID": 4722,
+        "ChargePointID": 47771,
+        "CommentTypeID": 50,
+        "CommentType": {
+          "ID": 50,
+          "Title": "Important Notice (For Other Users)"
+        },
+        "UserName": "Peter Galbavy",
+        "Comment": "Now completely powered off, signs of works in progress but may be unrelated",
+        "Rating": 2,
+        "DateCreated": "2015-06-19T12:14:59.34Z",
+        "User": {
+          "ID": 4899,
+          "Username": "Peter Galbavy",
+          "ReputationPoints": 60,
+          "ProfileImageURL": "https://www.gravatar.com/avatar/cfaa82be6212da1801acc4aa4d0b9889?s=80&d=mm"
+        },
+        "CheckinStatusTypeID": 20,
+        "CheckinStatusType": {
+          "IsPositive": false,
+          "IsAutomatedCheckin": false,
+          "ID": 20,
+          "Title": "Failed to Charge (Equipment Not Operational)"
+        }
+      }
+    ],
+    "Connections": [
+      {
+        "ID": 58903,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Mennekes (Type 2)"
+        },
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 32,
+        "Voltage": 230,
+        "PowerKW": 7.0,
+        "CurrentTypeID": 10,
+        "CurrentType": {
+          "Description": "Alternating Current - Single Phase",
+          "ID": 10,
+          "Title": "AC (Single-Phase)"
+        },
+        "Quantity": 1
+      },
+      {
+        "ID": 58904,
+        "ConnectionTypeID": 1,
+        "ConnectionType": {
+          "FormalName": "SAE J1772-2009",
+          "ID": 1,
+          "Title": "J1772"
+        },
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 16,
+        "Voltage": 230,
+        "PowerKW": 4.0,
+        "CurrentTypeID": 10,
+        "CurrentType": {
+          "Description": "Alternating Current - Single Phase",
+          "ID": 10,
+          "Title": "AC (Single-Phase)"
+        },
+        "Quantity": 1
+      }
+    ],
+    "MediaItems": [
+      {
+        "ID": 2886,
+        "ChargePointID": 47771,
+        "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM47771/OCM-47771.orig.2015073012400225.jpg",
+        "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM47771/OCM-47771.thmb.2015073012400225.jpg",
+        "Comment": "New style Source London post now in place. Not yet powered on.",
+        "IsEnabled": true,
+        "IsVideo": false,
+        "IsFeaturedItem": false,
+        "IsExternalResource": false,
+        "User": {
+          "ID": 4899,
+          "Username": "Peter Galbavy",
+          "ReputationPoints": 60,
+          "ProfileImageURL": "https://www.gravatar.com/avatar/cfaa82be6212da1801acc4aa4d0b9889?s=80&d=mm"
+        },
+        "DateCreated": "2015-07-30T12:40:00Z"
+      }
+    ],
+    "IsRecentlyVerified": false
+  },
+  {
+    "ID": 52782,
+    "UUID": "748A3799-024F-42F4-9E6D-A35423041CE8",
+    "DataProviderID": 1,
+    "DataProvider": {
+      "WebsiteURL": "http://openchargemap.org",
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 1,
+        "Title": "Manual Data Entry"
+      },
+      "IsRestrictedEdit": false,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+      "ID": 1,
+      "Title": "Open Charge Map Contributors"
+    },
+    "OperatorID": 32,
+    "OperatorInfo": {
+      "WebsiteURL": "http://www.polarnetwork.com/",
+      "Comments": "Owned by Chargemaster in the UK",
+      "PhonePrimaryContact": "01582 400331",
+      "IsPrivateIndividual": false,
+      "ContactEmail": "polarenquiries@chargemasterplc.com",
+      "FaultReportEmail": "polarenquiries@chargemasterplc.com",
+      "IsRestrictedEdit": false,
+      "ID": 32,
+      "Title": "POLAR (UK)"
+    },
+    "OperatorsReference": "272",
+    "UsageTypeID": 4,
+    "UsageType": {
+      "IsPayAtLocation": false,
+      "IsMembershipRequired": true,
+      "IsAccessKeyRequired": true,
+      "ID": 4,
+      "Title": "Public - Membership Required"
+    },
+    "UsageCost": "Â£1.20; other tariffs available",
+    "AddressInfo": {
+      "ID": 53128,
+      "Title": "NCP Great Eastern Street",
+      "AddressLine1": "Great Eastern Street",
+      "AddressLine2": "Shoreditch",
+      "Town": "London",
+      "Postcode": "EC2A 3ER",
+      "CountryID": 1,
+      "Country": {
+        "ISOCode": "GB",
+        "ContinentCode": "EU",
+        "ID": 1,
+        "Title": "United Kingdom"
+      },
+      "Latitude": 51.5238,
+      "Longitude": -0.080114,
+      "AccessComments": "Enter NCP and bay is immediately on left before car lift to car park.",
+      "Distance": 0.50091862891867633,
+      "DistanceUnit": 2
+    },
+    "NumberOfPoints": 2,
+    "GeneralComments": "Chargemaster post. Polar Network cards accepted as well as Source London.",
+    "StatusTypeID": 50,
+    "StatusType": {
+      "IsOperational": true,
+      "IsUserSelectable": true,
+      "ID": 50,
+      "Title": "Operational"
+    },
+    "DateLastStatusUpdate": "2017-08-04T22:33:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2015-09-11T08:37:00Z",
+    "SubmissionStatusTypeID": 200,
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 200,
+      "Title": "Submission Published"
+    },
+    "Connections": [
+      {
+        "ID": 65667,
+        "ConnectionTypeID": 3,
+        "ConnectionType": {
+          "FormalName": "BS1363 / Type G",
+          "ID": 3,
+          "Title": "BS1363 3 Pin 13 Amp"
+        },
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 13,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "CurrentTypeID": 10,
+        "CurrentType": {
+          "Description": "Alternating Current - Single Phase",
+          "ID": 10,
+          "Title": "AC (Single-Phase)"
+        },
+        "Quantity": 2
+      }
+    ],
+    "IsRecentlyVerified": false
+  },
+  {
+    "ID": 80088,
+    "UUID": "807B454F-C6FC-48AE-800E-3E9455907991",
+    "DataProviderID": 1,
+    "DataProvider": {
+      "WebsiteURL": "http://openchargemap.org",
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 1,
+        "Title": "Manual Data Entry"
+      },
+      "IsRestrictedEdit": false,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+      "ID": 1,
+      "Title": "Open Charge Map Contributors"
+    },
+    "OperatorID": 3,
+    "OperatorInfo": {
+      "WebsiteURL": "http://www.pod-point.com/",
+      "PhoneSecondaryContact": "020 7247 4114",
+      "IsPrivateIndividual": false,
+      "ContactEmail": "enquiries@pod-point.com",
+      "FaultReportEmail": "enquiries@pod-point.com",
+      "ID": 3,
+      "Title": "POD Point (UK)"
+    },
+    "OperatorsReference": "PG-90990",
+    "UsageTypeID": 6,
+    "UsageType": {
+      "IsPayAtLocation": false,
+      "IsMembershipRequired": false,
+      "IsAccessKeyRequired": false,
+      "ID": 6,
+      "Title": "Private - For Staff, Visitors or Customers"
+    },
+    "UsageCost": "Free",
+    "AddressInfo": {
+      "ID": 80434,
+      "Title": "Investec-Gresham Street",
+      "AddressLine1": "30 Gresham Street",
+      "Town": " London",
+      "Postcode": "EC2V 7QN",
+      "CountryID": 1,
+      "Country": {
+        "ISOCode": "GB",
+        "ContinentCode": "EU",
+        "ID": 1,
+        "Title": "United Kingdom"
+      },
+      "Latitude": 51.516701,
+      "Longitude": -0.095897,
+      "Distance": 0.503312102640686,
+      "DistanceUnit": 2
+    },
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "StatusType": {
+      "IsOperational": true,
+      "IsUserSelectable": true,
+      "ID": 50,
+      "Title": "Operational"
+    },
+    "DateLastStatusUpdate": "2017-01-30T19:31:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2017-01-30T19:23:00Z",
+    "SubmissionStatusTypeID": 200,
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 200,
+      "Title": "Submission Published"
+    },
+    "Connections": [
+      {
+        "ID": 114741,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Mennekes (Type 2)"
+        },
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 32,
+        "Voltage": 230,
+        "PowerKW": 7.0,
+        "CurrentTypeID": 10,
+        "CurrentType": {
+          "Description": "Alternating Current - Single Phase",
+          "ID": 10,
+          "Title": "AC (Single-Phase)"
+        },
+        "Quantity": 1
+      }
+    ],
+    "IsRecentlyVerified": false
+  },
+  {
+    "ID": 56391,
+    "UUID": "B9FCBEFD-4336-4580-847A-9B2D581BECFE",
+    "DataProviderID": 1,
+    "DataProvider": {
+      "WebsiteURL": "http://openchargemap.org",
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 1,
+        "Title": "Manual Data Entry"
+      },
+      "IsRestrictedEdit": false,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+      "ID": 1,
+      "Title": "Open Charge Map Contributors"
+    },
+    "OperatorID": 25,
+    "OperatorInfo": {
+      "WebsiteURL": "http://www.sourcelondon.net/",
+      "BookingURL": "https://www.sourcelondon.net/membership",
+      "ContactEmail": "membership@sourcelondon.net",
+      "FaultReportEmail": "membership@sourcelondon.net",
+      "ID": 25,
+      "Title": "Source London"
+    },
+    "OperatorsReference": "PP-12729",
+    "UsageTypeID": 4,
+    "UsageType": {
+      "IsPayAtLocation": false,
+      "IsMembershipRequired": true,
+      "IsAccessKeyRequired": true,
+      "ID": 4,
+      "Title": "Public - Membership Required"
+    },
+    "UsageCost": "Free. Parking fees apply.",
+    "AddressInfo": {
+      "ID": 56737,
+      "Title": "Smithfield Market Car Park",
+      "AddressLine1": "West Smithfield",
+      "Town": "London",
+      "Postcode": "EC1A 9DS",
+      "CountryID": 1,
+      "Country": {
+        "ISOCode": "GB",
+        "ContinentCode": "EU",
+        "ID": 1,
+        "Title": "United Kingdom"
+      },
+      "Latitude": 51.518753,
+      "Longitude": -0.101256,
+      "Distance": 0.52444900352174206,
+      "DistanceUnit": 2
+    },
+    "NumberOfPoints": 3,
+    "GeneralComments": "In underground car park",
+    "StatusTypeID": 0,
+    "StatusType": {
+      "IsUserSelectable": true,
+      "ID": 0,
+      "Title": "Unknown"
+    },
+    "DateLastStatusUpdate": "2016-12-16T09:58:00Z",
+    "DataQualityLevel": 3,
+    "DateCreated": "2015-11-04T08:31:00Z",
+    "SubmissionStatusTypeID": 200,
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 200,
+      "Title": "Submission Published"
+    },
+    "Connections": [
+      {
+        "ID": 71145,
+        "ConnectionTypeID": 3,
+        "ConnectionType": {
+          "FormalName": "BS1363 / Type G",
+          "ID": 3,
+          "Title": "BS1363 3 Pin 13 Amp"
+        },
+        "StatusTypeID": 100,
+        "StatusType": {
+          "IsOperational": false,
+          "IsUserSelectable": true,
+          "ID": 100,
+          "Title": "Not Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 13,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "CurrentTypeID": 10,
+        "CurrentType": {
+          "Description": "Alternating Current - Single Phase",
+          "ID": 10,
+          "Title": "AC (Single-Phase)"
+        },
+        "Quantity": 3
+      },
+      {
+        "ID": 71470,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Mennekes (Type 2)"
+        },
+        "StatusTypeID": 100,
+        "StatusType": {
+          "IsOperational": false,
+          "IsUserSelectable": true,
+          "ID": 100,
+          "Title": "Not Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 32,
+        "Voltage": 230,
+        "PowerKW": 7.0,
+        "CurrentTypeID": 10,
+        "CurrentType": {
+          "Description": "Alternating Current - Single Phase",
+          "ID": 10,
+          "Title": "AC (Single-Phase)"
+        },
+        "Quantity": 3
+      }
+    ],
+    "MetadataValues": [
+      {
+        "ID": 1875,
+        "MetadataFieldID": 4,
+        "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+      }
+    ],
+    "IsRecentlyVerified": false
+  },
+  {
+    "ID": 47907,
+    "UUID": "FFA43D23-AA79-4802-989B-FE3BEAA6957A",
+    "DataProviderID": 1,
+    "DataProvider": {
+      "WebsiteURL": "http://openchargemap.org",
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 1,
+        "Title": "Manual Data Entry"
+      },
+      "IsRestrictedEdit": false,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+      "ID": 1,
+      "Title": "Open Charge Map Contributors"
+    },
+    "OperatorID": 25,
+    "OperatorInfo": {
+      "WebsiteURL": "http://www.sourcelondon.net/",
+      "BookingURL": "https://www.sourcelondon.net/membership",
+      "ContactEmail": "membership@sourcelondon.net",
+      "FaultReportEmail": "membership@sourcelondon.net",
+      "ID": 25,
+      "Title": "Source London"
+    },
+    "OperatorsReference": "CM-2055",
+    "UsageTypeID": 4,
+    "UsageType": {
+      "IsPayAtLocation": false,
+      "IsMembershipRequired": true,
+      "IsAccessKeyRequired": true,
+      "ID": 4,
+      "Title": "Public - Membership Required"
+    },
+    "UsageCost": "Â£0.059/minute; min Â£1.18; other tariffs available",
+    "AddressInfo": {
+      "ID": 48253,
+      "Title": "King John Court",
+      "AddressLine1": "New Inn Yard",
+      "AddressLine2": "Hackney",
+      "Town": "London",
+      "Postcode": "EC2A 3EX",
+      "CountryID": 1,
+      "Country": {
+        "ISOCode": "GB",
+        "ContinentCode": "EU",
+        "ID": 1,
+        "Title": "United Kingdom"
+      },
+      "Latitude": 51.52411,
+      "Longitude": -0.078978,
+      "AccessComments": "on street charging bays. max stay 4 hours",
+      "Distance": 0.55090653892029362,
+      "DistanceUnit": 2
+    },
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "StatusType": {
+      "IsOperational": true,
+      "IsUserSelectable": true,
+      "ID": 50,
+      "Title": "Operational"
+    },
+    "DateLastStatusUpdate": "2017-10-06T05:22:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2015-06-15T10:29:00Z",
+    "SubmissionStatusTypeID": 200,
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 200,
+      "Title": "Submission Published"
+    },
+    "UserComments": [
+      {
+        "ID": 10308,
+        "ChargePointID": 47907,
+        "CommentTypeID": 50,
+        "CommentType": {
+          "ID": 50,
+          "Title": "Important Notice (For Other Users)"
+        },
+        "UserName": "Simon Hewison",
+        "Comment": "nearby construction work - charging bay obstructed by construction materials.",
+        "Rating": 2,
+        "DateCreated": "2016-05-05T19:15:01.453Z",
+        "User": {
+          "ID": 4575,
+          "Username": "Simon Hewison",
+          "ReputationPoints": 36332,
+          "ProfileImageURL": "https://www.gravatar.com/avatar/b6797fc022c04bb79e21d4ff9ba07154?s=80&d=mm"
+        },
+        "CheckinStatusTypeID": 120,
+        "CheckinStatusType": {
+          "IsPositive": false,
+          "IsAutomatedCheckin": false,
+          "ID": 120,
+          "Title": "Charging Spot Not Accessible (Access locked or site closed)"
+        }
+      },
+      {
+        "ID": 6213,
+        "ChargePointID": 47907,
+        "CommentTypeID": 10,
+        "CommentType": {
+          "ID": 10,
+          "Title": "General Comment"
+        },
+        "UserName": "Simon Hewison",
+        "Comment": "Charged successfully. Source London card",
+        "Rating": 4,
+        "DateCreated": "2015-08-17T17:18:42.68Z",
+        "User": {
+          "ID": 4575,
+          "Username": "Simon Hewison",
+          "ReputationPoints": 36332,
+          "ProfileImageURL": "https://www.gravatar.com/avatar/b6797fc022c04bb79e21d4ff9ba07154?s=80&d=mm"
+        },
+        "CheckinStatusTypeID": 10,
+        "CheckinStatusType": {
+          "IsPositive": true,
+          "IsAutomatedCheckin": false,
+          "ID": 10,
+          "Title": "Charged Successfully"
+        }
+      }
+    ],
+    "Connections": [
+      {
+        "ID": 59083,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Mennekes (Type 2)"
+        },
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 32,
+        "Voltage": 230,
+        "PowerKW": 7.0,
+        "CurrentTypeID": 10,
+        "CurrentType": {
+          "Description": "Alternating Current - Single Phase",
+          "ID": 10,
+          "Title": "AC (Single-Phase)"
+        },
+        "Quantity": 2
+      },
+      {
+        "ID": 132656,
+        "ConnectionTypeID": 1,
+        "ConnectionType": {
+          "FormalName": "SAE J1772-2009",
+          "ID": 1,
+          "Title": "J1772"
+        },
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 16,
+        "Voltage": 230,
+        "PowerKW": 4.0,
+        "CurrentTypeID": 10,
+        "CurrentType": {
+          "Description": "Alternating Current - Single Phase",
+          "ID": 10,
+          "Title": "AC (Single-Phase)"
+        },
+        "Quantity": 2
+      }
+    ],
+    "MediaItems": [
+      {
+        "ID": 3492,
+        "ChargePointID": 47907,
+        "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM47907/OCM-47907.orig.2015111212033661.jpg",
+        "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM47907/OCM-47907.thmb.2015111212033661.jpg",
+        "Comment": "Works well, often a works van on the charger but 4hrs free parking too",
+        "IsEnabled": true,
+        "IsVideo": false,
+        "IsFeaturedItem": false,
+        "IsExternalResource": false,
+        "User": {
+          "ID": 6590,
+          "Username": "Rick Fish",
+          "ReputationPoints": 4,
+          "ProfileImageURL": "https://www.gravatar.com/avatar/851195b40466607d496666c905d92c47?s=80&d=mm"
+        },
+        "DateCreated": "2015-11-12T12:04:00Z"
+      },
+      {
+        "ID": 13415,
+        "ChargePointID": 47907,
+        "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM47907/OCM-47907.orig.2017100418255118.jpg",
+        "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM47907/OCM-47907.thmb.2017100418255118.jpg",
+        "Comment": "new chargers installed recently, they were still covered in plastic at the weekend, not powered up yet, nothing on the display. looks like a type 2 socket and may be a type 1 thethered?",
+        "IsEnabled": true,
+        "IsVideo": false,
+        "IsFeaturedItem": false,
+        "IsExternalResource": false,
+        "User": {
+          "ID": 4938,
+          "Username": "Richard Butler ",
+          "ReputationPoints": 41,
+          "ProfileImageURL": "https://www.gravatar.com/avatar/bad9580ae9049b714f593f2af8f529a7?s=80&d=mm"
+        },
+        "DateCreated": "2017-10-04T18:26:00Z"
+      }
+    ],
+    "IsRecentlyVerified": false
+  }
+]

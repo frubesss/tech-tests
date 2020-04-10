@@ -1,0 +1,19 @@
+@import "./variables";
+
+.header-nav {
+  overflow: hidden;
+  background-color: $pod_point_green;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  a {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    margin: 30px;
+  }
+
+}
