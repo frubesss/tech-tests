@@ -1,0 +1,29 @@
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+
+.main {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.item {
+    grid-column: 1;
+    grid-row: 1;
+    animation: spinAround linear infinite;
+}
+
+@keyframes spinAround {
+    from {
+        transform: rotate(0deg) translate(200px) scale(1);
+    }
+    to {
+        transform: rotate(360deg) translate(200px) scale(1);
+    }
+}
